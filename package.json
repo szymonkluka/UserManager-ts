@@ -1,0 +1,25 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "typescript-project",
+  "main": "index.tes",
+  "scripts": {
+    "watch": "cross-env FORCE_COLOR=1 ts-node ./src/index.ts"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Simon K",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "cross-env": "^7.0.3",
+    "inquirer": "^8.2.4",
+    "nodemon": "^2.0.20",
+    "ts-node": "^8.10.2"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "consola": "^2.15.3"
+  }
+}
